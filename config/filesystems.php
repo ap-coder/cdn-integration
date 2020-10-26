@@ -73,6 +73,14 @@ return [
             // 'endpoint'  => 'https://identity.api.rackspacecloud.com/v2.0/',
             // 'region'    => 'IAD',
             // 'url_type'  => 'publicURL',
+                // env('RS_USER')
+                // env('RS_API_KEY')
+                // env('RS_CONTAINER')
+                // env('RS_REGION')
+                // env('RS_URL_TYPE')
+                // env('RS_TENANTID')
+            // https://php-opencloud.readthedocs.io/en/latest/services/networking/index.html
+            //
         ],
 
     ],
