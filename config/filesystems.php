@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'cloud' => env('FILESYSTEM_CLOUD', 's3'),
+    'cloud' => env('FILESYSTEM_CLOUD', 'rackspace'),
 
     /*
     |--------------------------------------------------------------------------
@@ -63,6 +63,16 @@ return [
             'bucket' => env('AWS_BUCKET'),
             'url' => env('AWS_URL'),
             'endpoint' => env('AWS_ENDPOINT'),
+        ],
+
+        'rackspace' => [
+            'driver'    => 'rackspace',
+            'username'  => 'kevinmonta08',
+            'key'       => '3e96591b0ec140e5b17868126f290d33',
+            // 'container' => 'mystorage',
+            // 'endpoint'  => 'https://identity.api.rackspacecloud.com/v2.0/',
+            // 'region'    => 'IAD',
+            // 'url_type'  => 'publicURL',
         ],
 
     ],
